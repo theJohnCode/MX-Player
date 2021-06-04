@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX PLAYER | John Code</title>
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="fontawesome4/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <span>Now Playing</span>
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </div>
+        <div class="img-area">
+            <img src="images/xenderforpcis-300x150.jpg" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name">Lionel Richie - I call it love</p>
+            <p class="artist">Lionel Richie</p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar"></div>
+            <div class="timer">
+                <span class="current">00:00</span>
+                <span class="duration"></span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="controls">
+            <i id="repeat-plist" class="fas fa-retweet" title="repeat playlist" aria-hidden="true"></i>
+            <i id="prev" class="fa fa-backward" aria-hidden="true" title="prev"></i>
+            <div class="play-pause">
+                <i class="fa fa-play" aria-hidden="true" title="play"></i>
+            </div>
+            <i id="next" class="fa fa-forward" aria-hidden="true" title="next"></i>
+            <i id="more-music" class="fa fa-ellipsis-h" aria-hidden="true" title="more songs"></i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <span>All songs</span>
+                </div>
+                <i id="close" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <ul>
+             
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/music_list.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
