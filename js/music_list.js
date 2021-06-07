@@ -35,10 +35,10 @@ let allMusic = [
         id: "music-5"
     },
     {
-        name : "Osaka High Praise",
-        artist : "Osaka",
+        name : "Don't Hero",
+        artist : "Royalty Music",
         img : "images/me.jpg",
-        src: "songs/OSAKA HIGH PRAISE -LIVE PERFORMANCE VOL 6 (2).mp3",
+        src: "songs/dont-hero.mp3",
         id: "music-6"
     }
 ]

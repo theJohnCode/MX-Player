@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 *::before,
@@ -282,7 +282,7 @@ ul li.playing{
     }
 
 }
- 
+/*  
 @media screen and (min-width: 360px){
     .wrapper{
         height: 100%;
@@ -300,15 +300,15 @@ ul li.playing{
     .img-area {
         height: 450px;
     }
-}
+} */
 
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1024px){
     .wrapper{
         height: 100%;
         width: 350px;
     }
     .img-area {
-        height: 300px;
+        height: 295px;
     }
     ul li .row p{
         font-size: 30px;
@@ -316,4 +316,4 @@ ul li.playing{
     .music-list ul li .row span {
         font-size: 35px;
     }
-}
+} */
